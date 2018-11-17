@@ -6,7 +6,7 @@ title = "Thiago Almeida"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 theme = "hugo-sustain"
-publishdir = "thiagoalmeidasa.github.io"
+publishdir = "public"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
