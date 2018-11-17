@@ -1,0 +1,10 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    name: Notebooks from Operação Serenata de Amor
+    link: https://github.com/thiagoalmeidasa/okfn-brasil-notebooks
+    description: I try to contribute with [serenata de amor](https://serenata.ai/) initiative by providing ways to make easier for newcomers to collaborate with the project.
+  - icon: fa fa-github
+    name: Cluster for the Dask Tutorial
+    link: https://github.com/thiagoalmeidasa/dask-tutorial-infrastructure
+    description: This is a public deployment of [JupyterHub](http://jupyter.org/hub) with [Dask](https://dask.org/) in a [Kubernetes](https://kubernetes.io/) cluster.

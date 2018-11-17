@@ -1,0 +1,46 @@
+baseurl = "https://thiagoalmeidasa.github.io/"
+languageCode = "en-US"
+title = "Thiago Almeida"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = "thiagoalmeidasa"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+publishdir = "thiagoalmeidasa.github.io"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  # avatar = "profile.png"
+  gravatar = "thiagoalmeidasa@gmail.com"
+  author = "Thiago Almeida"
+  description = "My awesome personal website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "thiagoalmeidasa"
+  Email         = "thiagoalmeidasa@gmail.com"
+  Twitter       = "thiagoalmeidasa"
+  LinkedIn      = "thiagoalmeidasa"
+  Stackoverflow = "users/4172067/thiago-almeida"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"
